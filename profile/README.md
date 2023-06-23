@@ -21,7 +21,7 @@
     - 상품을 거래하기 위한 채팅이 가능.
 
 # 🛠️  기술 스택
-- Back End: Java 11, Spring Boot 3, Spring Security, Sprint Cloud Gateway, MySQL
+- Back End: Java 11, Spring Boot 2, Spring Security, Sprint Cloud Gateway, MySQL
 - FrontEnd: TypeScript, Next.js
 
 # ⚱️ 아키텍처
