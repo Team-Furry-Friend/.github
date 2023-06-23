@@ -1,4 +1,4 @@
-# Furry_Friend_v3
+# Furry_Friend
 
 # 💡 주제
 - **애완동물 관련 물품을 거래하는 중고 거래 플랫폼**
@@ -13,11 +13,8 @@
 - **인증/인가**
     - Spring Cloud Gateway를 통해 라우팅 및 토큰 검증.
     - Oauth2와 JWT를 이용한 인증/인가.
-    - 로그인하지 않는다면 상품 게시, 댓글, 장바구니 등의 기능을 사용할 수 없음.
 - **상품 서비스**
-    - 상품을 사용자가 등록할 수 있음.
-    - 카테고리 별로 상품을 볼 수 있음.
-    - 검색 기능을 활용하여 상품을 검색할 수 있음.
+    - 판매 상품을 사용자가 조회, 등록, 수정 삭제할 수 있음.
     - 상품에 대한 댓글을 작성하고 삭제가 가능.
     - 중고 거래 물품을 찜해둘 수 있음.
 - **채팅 서비스**(개발 중)
@@ -25,18 +22,33 @@
 
 # 🛠️  기술 스택
 - Back End: Java 11, Spring Boot 3, Spring Security, Sprint Cloud Gateway, MySQL
-- FrontEnd: Thymeleaf
+- FrontEnd: TypeScript, Next.js
 
 # ⚱️ 아키텍처
 `MicroService Architecture`
 ![image](https://github.com/youngsoosoo/Furry_Friend_v3/assets/87405853/a6f8814c-a782-4d4c-8353-0116e8cefe6a)
 
-# 👨🏻‍💻 팀
-- 개인 프로젝트(프론트엔드 개발자와 협업할 예정)
-
 # 🔜 방향성
-- 인증 / 인가
-  - API Gateway를 구현해 JWT 토큰 인증 처리 및 라우팅 기능
 - 채팅 서비스 도입(미개발)
   - Kafka를 통해 채팅 서비스를 개발해 나갈 예정
   - 데이터 처리할 때 CQRS 패턴을 도입할 예정
+
+# 👨🏻‍💻 팀
+<table>
+  <tbody>
+    <tr>
+      <tr>
+        <td align="center">FE</td>
+        <td align="center">Ops/BE</td>
+      </tr>
+      <tr>
+      <td align="center"><a href="https://github.com/kkukileon"><img src="https://avatars.githubusercontent.com/u/102274941?v=4" width="100px;" alt=""/></td>
+      <td align="center"><a href="https://github.com/youngsoosoo"><img src="https://avatars.githubusercontent.com/u/87405853?v=4" width="100px;" alt=""/></td>
+      </tr>
+      <tr>
+      <td align="center"><a href="https://github.com/kkukileon">다익</td>
+      <td align="center"><a href="https://github.com/youngsoosoo">용수</td>
+      </tr>
+    </tr>
+  </tbody>
+</table>
