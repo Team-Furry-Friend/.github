@@ -23,7 +23,7 @@
 
 # 🛠️  기술 스택
 - Back End: Java 11, Spring Boot 2, Spring Security, Sprint Cloud Gateway, MySQL
-- FrontEnd: TypeScript, Next.js
+- FrontEnd: TypeScript, Next.js, Tailwindcss
 
 # ⚱️ 아키텍처
 `MicroService Architecture`
