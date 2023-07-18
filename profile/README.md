@@ -19,7 +19,8 @@
     - 중고 거래 물품을 찜해둘 수 있음.
     - 상품 검색 및 카테고리 선택.
 - **채팅 서비스**(개발 중)
-    - WebSocket과 Stomp를 사용해 채팅 기능 구현 중.
+    - WebSocket과 Stomp(pub/sub)를 사용해 채팅 기능 구현.
+    - 조회 성능 향상을 위한 CQRS 도입 중.(진행 중)
 
 # 🛠️  기술 스택
 - Back End: Java 11, Spring Boot 2, Spring Security, Sprint Cloud Gateway, MySQL
