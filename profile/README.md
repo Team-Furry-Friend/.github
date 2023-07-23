@@ -23,8 +23,9 @@
     - 조회 성능 향상을 위한 CQRS 도입 중.(진행 중)
 
 # 🛠️  기술 스택
-- Back End: Java 11, Spring Boot 2, Spring Security, Sprint Cloud Gateway, MySQL
-- FrontEnd: TypeScript, Next.js, Tailwindcss
+- Back-End: Java 11, Spring Boot 2, Spring Security, Sprint Cloud Gateway, MySQL
+- Front-End: TypeScript, Next.js, Tailwindcss
+- Mobile: Dart, Flutter
 
 # ⚱️ 아키텍처
 `MicroService Architecture`
@@ -40,16 +41,19 @@
   <tbody>
     <tr>
       <tr>
-        <td align="center">FE</td>
-        <td align="center">Ops/BE</td>
+        <td align="center">Front-End</td>
+        <td align="center">Back-End</td>
+        <td align="center">Mobile</td>
       </tr>
       <tr>
       <td align="center"><a href="https://github.com/kkukileon"><img src="https://avatars.githubusercontent.com/u/102274941?v=4" width="100px;" alt=""/></td>
       <td align="center"><a href="https://github.com/youngsoosoo"><img src="https://avatars.githubusercontent.com/u/87405853?v=4" width="100px;" alt=""/></td>
+      <td align="center"><a href="https://github.com/LIMMIHEE"><img src="https://avatars.githubusercontent.com/u/48482259?v=4" width="100px;" alt=""/></td>
       </tr>
       <tr>
       <td align="center"><a href="https://github.com/kkukileon">다익</td>
       <td align="center"><a href="https://github.com/youngsoosoo">용수</td>
+      <td align="center"><a href="https://github.com/LIMMIHEE">미희</td>
       </tr>
     </tr>
   </tbody>
