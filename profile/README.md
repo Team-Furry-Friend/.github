@@ -32,8 +32,8 @@
 ![image](https://github.com/youngsoosoo/Furry_Friend_v3/assets/87405853/a6f8814c-a782-4d4c-8353-0116e8cefe6a)
 
 # 🔜 방향성
-- 채팅 서비스 도입(미개발)
-  - 데이터 처리할 때 CQRS 패턴을 도입할 예정
+- 데이터 처리할 때 CQRS 패턴을 도입할 예정
+- 채팅 및 상품 댓글의 알림을 위한 알림 서비스 개발 예정
 
 # 👨🏻‍💻 팀
 <table>
