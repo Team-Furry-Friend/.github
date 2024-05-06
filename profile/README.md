@@ -18,9 +18,8 @@
     - 상품에 대한 댓글을 작성하고 삭제가 가능.
     - 중고 거래 물품을 찜해둘 수 있음.
     - 상품 검색 및 카테고리 선택.
-- **채팅 서비스**(개발 중)
+- **채팅 서비스**
     - WebSocket과 Stomp(pub/sub)를 사용해 채팅 기능 구현.
-    - 조회 성능 향상을 위한 CQRS 도입 중.(진행 중)
 
 # 🛠️  기술 스택
 - Back-End: Java 11, Spring Boot 2, Spring Security, Sprint Cloud Gateway, MySQL
@@ -31,9 +30,18 @@
 `MicroService Architecture`
 ![image](https://github.com/youngsoosoo/Furry_Friend_v3/assets/87405853/a6f8814c-a782-4d4c-8353-0116e8cefe6a)
 
-# 🔜 방향성
-- 데이터 처리할 때 CQRS 패턴을 도입할 예정
-- 채팅 및 상품 댓글의 알림을 위한 알림 서비스 개발 예정
+
+|로그인|회원가입|소셜로그인|
+|---------------------|---------------------|---------------------|
+|<img width="250" alt="로그인" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/86d4467f-69d4-4b0a-b11a-01dc78200787">|<img width="250" alt="회원가입" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/99f399a7-58ca-4eb1-be36-f835d8320db1">| <img width="250" alt="소셜로그인" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/c0e02a36-f238-42c7-8635-33508461b99f">|
+
+|메인페이지|상세페이지|등록페이지|
+|---------------------|---------------------|---------------------|
+|<img width="250" alt="메인페이지" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/c7f7e312-5ba7-4638-b892-edfac1ec4424">|<img width="250" alt="상세페이지" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/68481919-63e4-44e3-a2ef-ac9633c3ac05">| <img width="250" alt="등록페이지" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/35e5ec4d-44c0-473e-8a89-d222b2c9823f">|
+
+|채팅페이지|
+|---------------------|
+|<img width="750" alt="마이페이지" src="https://github.com/Team-Furry-Friend/.github/assets/87405853/b89426f7-7152-4591-83f8-7ebca17f019c">|
 
 # 👨🏻‍💻 팀
 <table>
